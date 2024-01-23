@@ -1,0 +1,452 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+:root {
+  --brighter: #d1d7db;
+  --darker: #032831;
+  --dark: #3B4E55;
+  --green: #27F498;
+}
+body {
+  background-color: var(--darker);
+  margin: 0;
+  padding: 0;
+  color: var(--brighter);
+  font-family: 'Segoe UI', "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+}
+img {
+  height: 100%;
+  object-fit: cover;
+  width: 98%;
+}
+
+
+/* Add custom styles for your Navbar */
+nav {
+  background-color: var(--darker);
+  border-bottom: solid 1px var(--brighter);
+}
+
+a.nav-link {
+  margin: 0px 20px;
+}
+.container-nav {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.container{
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+li {
+  margin-right: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+
+ul.hdetail {
+  display: block;
+  list-style: disc;
+}
+
+a:hover {
+  color: #ddd;
+}
+.img-form {
+  display: flex;
+  justify-content: space-between;
+}
+.image-container {
+  flex: 1;
+  overflow: hidden;
+  width: 50%;
+  object-fit: cover;
+  height: 500px;
+}
+h2.heading2 {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  flex: 1;
+  box-sizing: border-box;
+  width: 50%;
+  background-color: var(--dark);
+  align-items: stretch;
+  border: 2px solid transparent;
+  border-color: var(--green);
+}
+.form-in {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.container.mx-auto{
+  display: flex;
+  flex-direction: column;
+}
+.name-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  margin: 0 0 20px;
+  text-align: center;
+  background-color: var(--green);
+  font-size: x-large;
+  color: #000;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input, button {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 2px solid transparent;
+  border-color: var(--green);
+  background-color: transparent;
+  color: white;
+}
+input#firstName {
+  width: 85%;
+}
+
+button {
+  background-color: var(--green);
+  color: white;
+  cursor: pointer;
+}
+.images-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+  flex-wrap: nowrap;
+  overflow: hidden;
+  height: 150px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.images-row img {
+  width: 23%;  
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-color: var(--green);
+
+}
+.book-now-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.book-now-button {
+  padding: 10px;
+  background-color: var(--green);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.container-main {
+  padding: 50px 150px;
+  background-color: var(--dark);
+  margin-top: 30px;
+}
+
+.container-di {
+  display: flex;
+}
+.image1 {
+  width: 50%;
+  height: 100%;
+}
+.Panel-main {
+  display: flex;
+  justify-content: space-around;
+}
+p.Discp {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.Panel1 {
+  background-color: var(--darker);
+  height: 240px;
+  border: 2px solid transparent;
+  border-color: var(--green);
+}
+
+.panel {
+  background-color: var(--dark);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 20px 100px;
+}
+img.pimg1 {
+  height: 100%;
+  object-fit: scale-down;
+}
+.host-title{
+  display: flex;
+  justify-content: center;
+}
+
+.host{
+  background-color: var(--dark);
+  margin: 50px 300px;
+  border-radius: 10px;
+}
+.host-ip {
+  display: flex;
+}
+.panel-img {
+  padding: 40px 70px;
+}
+img.smallimg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.panel-host {
+  display: flex;
+  justify-content: space-between;
+}
+.panel2 {
+  background-color: var(--darker);
+  height: 150px;
+  width: 200px;
+  margin: 40px 10px;
+  border-radius: 5px;
+}
+.phost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fontlarge{
+  font-size: xx-large;
+}
+p.disch{
+  color: var(--green);
+}
+ul.ul-host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+li.li-host{
+  margin: 5px;
+  list-style: circle;
+ 
+}
+.host-discpn {
+  margin: 20px 70px;
+}
+div#about-section {
+  background-color: var(--dark);
+  padding: 50px 150px;
+}
+.about-disp{
+  display: flex;
+  justify-content: center;
+}
+.Revcod {
+  display: flex;
+  justify-content: space-between;
+}
+.list-ab {
+  display: flex;
+}
+.about-section {
+  padding: 50px 150px;
+  background-color: var(--dark);
+}
+.about-now-container {
+  margin-left: 70px;
+}
+.about-limg {
+  display: flex;
+  margin: 20px 10px;
+}
+figure.box {
+  border: 2px solid var(--green);
+  border-radius: 10px;
+}
+.box figcaption {
+  padding: 13% 10% 12%;
+  text-align: center; /* Center the content */
+  position: relative; /* Position the circle relative to the figcaption */
+}
+.colanimg1{
+  transform: rotate(180deg);
+  padding: 20px 50px;
+    margin-right: 170px;
+}
+.colanimg{
+  padding: 20px 50px;
+  margin-left: 170px;
+}
+.circle-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto; /* Center the circle horizontally */
+  border: 2px solid var(--green);
+  top: -30px;
+  position: absolute;
+}
+
+.box figcaption p {
+  margin-top: 10px; /* Add some space between the circle and the paragraph */
+}
+
+h1.thing-title {
+  padding: 50px 170px;
+}
+ul.ul-thing {
+  display: flow;
+}
+.list-main {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 300px;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+p.km {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--green);
+}
+
+.f-main{
+  padding: 50px 170px;
+  background-color: var(--dark);
+}
+.f-head{
+  font-size: 11px;
+}
+ul.f-ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  border-bottom: 1px solid;
+  margin: 0px;
+}
+li.f-li {
+  font-size: medium;
+  font-weight: 500;
+}
+.f-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.feat-hd {
+  margin-top : 60px;;
+}
+h4.f-h4 {
+  margin: 0px;
+}
+p.f-p {
+  margin: 5px 0px;
+  display: block;
+}
+.c-main {
+  padding: 50px 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.c-contd {
+  display: flex;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-logo {
+  margin: 80px 0px;
+}
+h1.c-head {
+  font-size: large;
+  font-weight: 400;
+}
+a.c-a {
+  margin: 0px 2px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-section {
+  margin: 0px 30px;
+}
+.Footer-list {
+  border-top: 1px solid;
+}
+ul.footer-ul {
+  margin-right: 150px;
+  font-size: smaller;
+}
