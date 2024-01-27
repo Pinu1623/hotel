@@ -27,7 +27,7 @@ const AboutUs = () => {
                     <img src="image-4.jpg" alt="Room 1" />
                 </div>
             </div>
-            <h1 className='host-title'>Reviews</h1>
+            <h1 className='review-title'>Reviews</h1>
             <div className="Review">
                 <div className="Revcod">
                     <div className="review-content">
