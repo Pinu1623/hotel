@@ -11,11 +11,7 @@ import Contacts from './components/contact';
 import Home2 from './components/Home2';
 
 export default function Home() {
-  // const [isClient, setIsClient] = useState(false);
-  // useEffect(() => {
-  //   setIsClient(true);
-  // }, []);
-
+  
   return (
     <div>
       <div>
