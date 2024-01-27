@@ -18,7 +18,7 @@ const Features =()=>{
                 </ul>
             </div>
             <div className="f-lists">
-                <div class="list-feature">
+                <div className="list-feature">
                     <div className="feat-hd">
                         <h4 className="f-h4">Luxury Suites</h4>
                         <p className="f-p">Opulent comfort.</p>
@@ -33,7 +33,7 @@ const Features =()=>{
                     </div>
                 </div>
 
-                <div class="list-feature">
+                <div className="list-feature">
                     <div className="feat-hd">
                         <h4 className="f-h4">Conference Spaces</h4>
                         <p className="f-p">Versatile venues.</p>
@@ -48,7 +48,7 @@ const Features =()=>{
                     </div>
                 </div>
 
-                <div class="list-feature">
+                <div className="list-feature">
                     <div className="feat-hd">
                         <h4 className="f-h4">City Views</h4>
                         <p className="f-p">Breathtaking panoramas.</p>
@@ -63,7 +63,7 @@ const Features =()=>{
                     </div>
                 </div>
 
-                <div class="list-feature">
+                <div className="list-feature">
                     <div className="feat-hd">
                         <h4 className="f-h4">Business Center</h4>
                         <p className="f-p">Productive workspaces.</p>
@@ -78,7 +78,7 @@ const Features =()=>{
                     </div>
                 </div>
 
-                <div class="list-feature">
+                <div className="list-feature">
                     <div className="feat-hd">
                         <h4 className="f-h4">Chic Interiors</h4>
                         <p className="f-p">Elegance redefined.</p>
@@ -93,7 +93,7 @@ const Features =()=>{
                     </div>
                 </div>
 
-                <div class="list-feature">
+                <div className="list-feature">
                     <div className="feat-hd">
                         <h4 className="f-h4">Event Spaces</h4>
                         <p className="f-p">Celebrations made special.</p>
