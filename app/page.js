@@ -25,44 +25,43 @@ export default function Home() {
       {/* homepage */}
       <div className="home-section" >
           <Home2 />
-
         </div>
 
-
+      {/* Hotel Details */}
         <div>
           <HDetails />
         </div>
 
-
+      {/* Host Details */}
         <div>
           <h1 className='host-title'>Meet Your Host</h1>
           <Hosts />
         </div>
 
-
+      {/* About Us */}
         <div className="about-section">
-          <h1 className='host-title'>About This Place</h1>
+          <h1 className='about-title'>About This Place</h1>
           <h5 className='about-disp'>It's possible that this place is a specific location, hotel, garden, or attraction.</h5>
           <AboutUs />
         </div>
 
-
+      {/* Things to know */}
         <div>
           <h1 className="thing-title">Thing To Know</h1>
           <Things />
         </div>
 
-
+      {/* Features */}
         <div>
           <Features />
         </div>
 
-
+      {/* Contacts */}
         <div className="contact-section">
           <Contacts />
         </div>
 
-      
+      {/* Footer */}
         <div className="Footer-list">
           <ul className="footer-ul">
               <li className="li-footer">News</li>
